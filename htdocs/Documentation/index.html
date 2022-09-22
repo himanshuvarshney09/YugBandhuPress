@@ -1,0 +1,490 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Install and Config Fable Theme - Version 1.1</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="Ovatheme">
+	<meta name="copyright" content="Ovatheme">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2016-06-28T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	<link rel="stylesheet" href="assets/css/documentation.css" media="screen">
+
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-install-and-config-fable-theme">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#overview" title="Overview">Overview</a></li>
+			<li><a href="#support" title="Support">Support</a></li>
+			<li><a href="#general_info" title="General info">General info</a></li>
+			<li><a href="#how_to_use_this_documentation" title="How to use this documentation">How to use this documentation</a></li>
+			<li><a href="#installing_the_theme" title="Installing the Theme">Installing the Theme</a></li>
+			<li><a href="#h4_install_via_wordpress_h4" title="<h4>Install via Wordpress</h4>"><h4>Install via Wordpress</h4></a></li>
+			<li><a href="#h4_install_via_ftp_h4" title="<h4>Install via FTP</h4>"><h4>Install via FTP</h4></a></li>
+			<li><a href="#h4_how_to_update_the_theme_h4" title="<h4>How to update the theme</h4>"><h4>How to update the theme</h4></a></li>
+			<li><a href="#config_in_page" title="Config in Page">Config in Page</a></li>
+			<li><a href="#theme_option_customizer" title="Theme Option - Customizer">Theme Option - Customizer</a></li>
+			<li><a href="#home_page" title="Home page">Home page</a></li>
+			<li><a href="#restaurant_menu_menu_page" title="Restaurant Menu (Menu page)">Restaurant Menu (Menu page)</a></li>
+			<li><a href="#slideshow" title="Slideshow">Slideshow</a></li>
+			<li><a href="#footer" title="Footer">Footer</a></li>
+			<li><a href="#visual_composer" title="Visual Composer">Visual Composer</a></li>
+			<li><a href="#plugins" title="Plugins">Plugins</a></li>
+			<li><a href="#translations" title="Translations">Translations</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Ovatheme 2016<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Install and Config Fable Theme</h1>
+	<h2>Version 1.1</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 07/09/2015</li>
+	<li>latest update: 06/28/2016</li>
+	<li>by: Ovatheme</li>
+	
+	<li>email: <a href="mailto:&#111;&#118;&#97;&#116;&#104;&#101;&#109;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#111;&#118;&#97;&#116;&#104;&#101;&#109;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p></p>
+	</section>
+	
+	<section id="overview">
+	<div class="page-header"><h3>Overview</h3><hr class="notop"></div>
+<div>
+	We would like to thank you for purchasing our theme! We are very pleased you have chosen our theme for your website, you will not be disappointed!</div>
+<div>
+	Before you get started, please be sure to always check out these documentation files. We outline all kinds of good information, and provide you with all the details you need to use our theme.&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+</section>
+<section id="support">
+	<div class="page-header"><h3>Support</h3><hr class="notop"></div>
+<div>
+	The our team are always happy to help you with any questions or recommendations you have about the our theme.</div>
+<div>
+	If you need any help or support please contact us through the Themeforest Messaging system or directed at&nbsp;<a href="mailto: &#111;&#118;&#97;&#116;&#104;&#101;&#109;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"> &#111;&#118;&#97;&#116;&#104;&#101;&#109;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></div>
+<p>	Note: If you contact us directed at&nbsp;<a href="mailto: &#111;&#118;&#97;&#116;&#104;&#101;&#109;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"> &#111;&#118;&#97;&#116;&#104;&#101;&#109;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>, please attach info about purchase code:&nbsp;</p>
+<p>	<a href="assets/images/image_4.png" target="_blank"><img alt="" src="assets/images/image_4.png" style="width: 800px; height: 343px;"></a></p>
+<p>	Then open file and find &quot;Item Purchase Code&quot; like</p>
+<p>	Item Purchase Code: cdf581e0-ed42-41a2-ab3f-26bb5fb9c874</p>
+</section>
+<section id="general_info">
+	<div class="page-header"><h3>General info</h3><hr class="notop"></div>
+<h2>
+	WordPress Information</h2>
+<p>	To install this theme you must have a working version of WordPress already installed.</p>
+<p>	To install this theme you must have a working version of WordPress already installed. If you need help installing WordPress, follow the instructions in <a href="http://codex.wordpress.org/Installing_WordPress" target="_blank">WordPress Codex</a> or you can watch the <a href="http://vimeo.com/17147778" target="_blank">Instructional Video</a>. Below are all the useful links for WordPress information.</p>
+<ul>	<li>		<a href="http://codex.wordpress.org/Installing_WordPress" target="_blank">WordPress Codex</a> &ndash; general info about WordPress and how to install on your server</li>
+	<li>		<a href="http://vimeo.com/17147778" target="_blank">Instructional Video</a> &ndash; How To install wordpress</li>
+	<li>		<a href="http://codex.wordpress.org/First_Steps_With_WordPress" target="_blank">First Steps With WordPress</a> &ndash; general information that covers a wide variety of topics</li>
+	<li>		<a href="http://codex.wordpress.org/FAQ_New_To_WordPress" target="_blank">FAQ New To WordPress</a> &ndash; the most popular FAQ&rsquo;s regarding WordPress</li>
+	<li>		<a href="http://wp.tutsplus.com/sessions/wp101-basix-training/" target="_blank">WP101 Basix Training videos</a> &ndash; some great videos from WPTuts on WordPress</li>
+</ul>
+<h2>
+	Requirements For Our Theme</h2>
+<p>	To use theme, you must be running WordPress 4.0 or higher, PHP5 or higher, and mysql 5 or higher. We have tested it with Mac, Windows and Linux. Below are a list of items you should ensure your host can comply with.</p>
+<ul>	<li>		Check to ensure that your web host has the minimum requirements to run WordPress.</li>
+	<li>		Always make sure they are running the latest version of WordPress</li>
+	<li>		You can download the latest release of WordPress from official <a href="http://wordpress.org" target="_blank">WordPress</a> website</li>
+	<li>		Always create secure passwords FTP and Database</li>
+</ul>
+</section>
+<section id="how_to_use_this_documentation">
+	<div class="page-header"><h3>How to use this documentation</h3><hr class="notop"></div>
+<p>	How to install theme:</p>
+<p>	1: Read &quot;installing the theme&quot; section</p>
+<p>	2: Read &quot;Config in page&quot; section</p>
+<p>	3: Read &quot;Customizer&quot; in theme</p>
+<p>	4: Read custom post type</p>
+<p>	5: Read config in extra plugins: contact form 7, mailchimp</p>
+<p>	6: Read &quot;Translations&quot; section: Translate text in theme</p>
+<p>	&nbsp;</p>
+</section>
+<section id="installing_the_theme">
+	<div class="page-header"><h3>Installing the Theme</h3><hr class="notop"></div>
+<p>	Once you have setup a copy of WordPress, there are two ways you can go about installing the theme:</p>
+<p>	- Install via Wordpress</p>
+<p>	- Install via FTP</p>
+</section>
+<section id="h4_install_via_wordpress_h4">
+	<div class="page-header"><h3><h4>Install via Wordpress</h4></h3><hr class="notop"></div>
+<p>	<strong>For example: Install theme fable.zip</strong></p>
+<p>	<strong>Step 1</strong>&nbsp;- Unzip the downloaded package from Themeforest. Find the folder theme and inside it find the file fable.zip</p>
+<p>	<a href="assets/images/image_24.png" target="_blank"><img alt="" class="img400" src="assets/images/image_24.png" style="width: 1000px; height: 249px;"></a></p>
+<p>	&nbsp;</p>
+<p>	<strong>Step 2</strong>&nbsp;- Login to your WordPress dashboard, go to Appearance &gt; Themes &gt;&gt; Click &quot;Add New&quot; &gt;&gt; Click &quot;Upload theme&quot;</p>
+<p>	<a href="assets/images/image_1.png" target="_blank"><img alt="" src="assets/images/image_1.png" style="height: 441px; width: 600px;"></a></p>
+<p>	<br>
+	<a href="assets/images/image_2.png" target="_blank"><img alt="" src="assets/images/image_2.png" style="width: 600px; height: 135px;"></a></p>
+<p>	<br>
+	<strong>Step 3</strong>&nbsp;- Click &quot;Choose file&quot; and find the file &quot;fable.zip&quot; on your computer. Click &quot;Install Now&quot;<br>
+	<br>
+	<a href="assets/images/image_5.png" target="_blank"><img alt="" src="assets/images/image_5.png" style="width: 600px; height: 159px;"></a></p>
+<p>	<br>
+	<strong>Step 4</strong>&nbsp;- Activate the theme: Go to Appearance &gt; Themes and Activate.<br>
+	<br>
+	<a href="assets/images/image_6.png" target="_blank"><img alt="" src="assets/images/image_6.png" style="height: 216px; width: 600px;"></a><br>
+	<br>
+	&nbsp;</p>
+<p>	<strong>Step 5</strong>: Install Plugins</p>
+<p>	<a href="assets/images/image_7.png" target="_blank"><img alt="" src="assets/images/image_7.png" style="height: 337px; width: 600px;"></a></p>
+<p>	<a href="assets/images/image_8.png" target="_blank"><img alt="" src="assets/images/image_8.png" style="height: 345px; width: 600px;"></a></p>
+<p>	<br>
+	<a href="assets/images/image_9.png"><img alt="" src="assets/images/image_9.png" style="width: 600px; height: 560px;"></a><br>
+	&nbsp;</p>
+<p>	<a href="assets/images/image_10.png" target="_blank"><img alt="" src="assets/images/image_10.png" style="height: 292px; width: 600px;"></a></p>
+<p>	&nbsp;</p>
+<p>	<strong>Step 6:</strong>&nbsp;Import demo Data</p>
+<p>	Go to the&nbsp;<strong>WordPress Admin &gt; Tools &gt; Import</strong>&nbsp;and click WordPress as displayed in image below.</p>
+<p>	<a href="assets/images/image_30.png" target="_blank"><img alt="" src="assets/images/image_30.png" style="width: 800px; height: 205px;"></a></p>
+<p>	At 1st time you need to install WordPress importer plugin</p>
+<p>	<a href="assets/images/image_31.png" target="_blank"><img alt="" src="assets/images/image_31.png" style="height: 605px; width: 800px;"></a></p>
+<p>	Once installed you need to activate the plugin and run the importer.</p>
+<p>	<a href="assets/images/image_32.png" target="_blank"><img alt="" src="assets/images/image_32.png" style="width: 800px; height: 236px;"></a></p>
+<p>	Select<strong>&nbsp;the fable_wordpress.xml file </strong>from<strong>&nbsp;sample_data </strong>folder&nbsp;in downloaded package that you have downloaded from themeforest.</p>
+<p>	<a href="assets/images/image_33.png" target="_blank"><img alt="" src="assets/images/image_33.png" style="width: 800px; height: 239px;"></a></p>
+<div>
+	After importing XML file.</div>
+<div>
+	&nbsp;</div>
+<div>
+	Assign posts to an existing author.</div>
+<div>
+	Mark the checkbox to download and import file attachments</div>
+<div>
+	Click &#39;Submit&#39; button</div>
+<div>
+	<br>
+	<a href="assets/images/image_34.png" target="_blank"><img alt="" src="assets/images/image_34.png" style="width: 800px; height: 358px;"></a></div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		Import process can take few minutes. So wait for it and try to keep the focus on current tab in your browser.</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		After that is done, you will have bunch of posts, pages, properties and other contents as on the theme demo.</div>
+	<div>
+		<br>
+		<a href="assets/images/image_35.png" target="_blank"><img alt="" src="assets/images/image_35.png" style="width: 800px; height: 204px;"></a></div>
+	<div>
+		&nbsp;</div>
+	<div>
+		<div>
+			&nbsp;</div>
+		<div>
+			<strong>Step 7: Install Widget</strong></div>
+		<div>
+			<br>
+			Choose *.wie in Sample_data folder</div>
+		<div>
+			<br>
+			<a href="assets/images/image_11.png"><img alt="" src="assets/images/image_11.png" style="width: 900px; height: 544px;"></a><br>
+			&nbsp;</div>
+	</div>
+</div>
+<p>	<strong>Step 8: Install Revolution slider</strong></p>
+<p>	<a href="assets/images/image_12.png"><img alt="" src="assets/images/image_12.png" style="width: 900px; height: 570px;"></a></p>
+<p>	&nbsp;</p>
+<p>	<a href="assets/images/image_13.png"><img alt="" src="assets/images/image_13.png" style="width: 900px; height: 512px;"></a></p>
+<p>	&nbsp;</p>
+<p>	<a href="assets/images/image_14.png"><img alt="" src="assets/images/image_14.png" style="width: 900px; height: 588px;"></a></p>
+<p>	&nbsp;</p>
+<p>	<strong>Step 9: &nbsp;Setup Home page</strong></p>
+<p>	From Left bar &gt;&gt; Settings &gt;&gt; Reading</p>
+<p>	<a href="assets/images/image_16.png" target="_blank"><img alt="" src="assets/images/image_16.png" style="width: 900px; height: 573px;"></a></p>
+<p>	&nbsp;</p>
+<p>	<strong>Step 10: Setup Menu</strong></p>
+<p>	<a href="assets/images/image_15.png" target="_blank"><img alt="" src="assets/images/image_15.png" style="width: 900px; height: 630px;"></a></p>
+<p>	&nbsp;</p>
+<p>	<strong>Step 11</strong>: Install Child-theme</p>
+<p>	<a href="assets/images/image_1.png" target="_blank"><img alt="" src="assets/images/image_1.png" style="height: 441px; width: 600px;"></a></p>
+<p>	<br>
+	<a href="assets/images/image_2.png" target="_blank"><img alt="" src="assets/images/image_2.png" style="width: 600px; height: 135px;"></a></p>
+<p>	&nbsp;</p>
+<p>	<a href="assets/images/image_19.png"><img alt="" src="assets/images/image_19.png" style="width: 600px; height: 184px;"></a></p>
+<p>	<a href="assets/images/image_20.png"><img alt="" src="assets/images/image_20.png" style="width: 600px; height: 291px;"></a></p>
+<p>	<a href="assets/images/image_21.png"><img alt="" src="assets/images/image_21.png" style="width: 600px; height: 281px;"></a></p>
+<p>	&nbsp;</p>
+<p>	&nbsp;</p>
+</section>
+<section id="h4_install_via_ftp_h4">
+	<div class="page-header"><h3><h4>Install via FTP</h4></h3><hr class="notop"></div>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 980px;">
+	<tbody>
+		<tr>
+			<td style="vertical-align: top;">
+				<p>					<strong>Step 1</strong>&nbsp;-&nbsp;Please surely &#39;transfer type&#39; in your FTP is &#39;Binary&#39;</p>
+				<p>					<strong>Step 2</strong> -&nbsp;Upload <b>fable</b>&nbsp;folder from&nbsp;downloaded package into <strong>wp-content &gt; themes</strong> folder</p>
+				<p>					<b>Step 3 - </b>Read &nbsp;step 4,5,6,7,8,9,10 in &quot;install via wordpress&quot; section</p>
+			</td>
+			<td>
+				<p>					&nbsp;</p>
+				<p>					<a href="assets/images/image_36.gif" target="_blank"><img alt="" src="assets/images/image_36.gif" style="width: 600px; height: 325px;"></a></p>
+				<p>					<a href="assets/images/image_29.jpg" target="_blank"><img alt="" src="assets/images/image_29.jpg" style="width: 600px; height: 306px;"></a></p>
+				<p>					&nbsp;</p>
+				<p>					<br>
+					&nbsp;</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				&nbsp;</td>
+			<td>
+				&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<p>	&nbsp;</p>
+<p>	&nbsp;</p>
+<p>	&nbsp;</p>
+<p>	&nbsp;</p>
+<p>	&nbsp;</p>
+</section>
+<section id="h4_how_to_update_the_theme_h4">
+	<div class="page-header"><h3><h4>How to update the theme</h4></h3><hr class="notop"></div>
+<p>	- <strong>Step 1:</strong> Backup all files of theme</p>
+<p>	- <strong>Step 2</strong>: Open changelog/index.html file in download package</p>
+<p>	<a href="assets/images/image_26.png"><img alt="" src="assets/images/image_26.png" style="width: 512px; height: 116px;"></a></p>
+<p>	- <strong>Step 3</strong>: Upload changed files via FTP software</p>
+</section>
+<section id="config_in_page">
+	<div class="page-header"><h3>Config in Page</h3><hr class="notop"></div>
+<p>	<a href="assets/images/image_22.png" target="_blank"><img alt="" src="assets/images/image_22.png" style="width: 1000px; height: 2641px;"></a></p>
+<p>	&nbsp;</p>
+<p>	&nbsp;</p>
+</section>
+<section id="theme_option_customizer">
+	<div class="page-header"><h3>Theme Option - Customizer</h3><hr class="notop"></div>
+<p>	- You can use some option for theme in: <strong>Appearance &gt;&gt; Customize</strong></p>
+<p>	<strong>- Global settings</strong></p>
+<p>	+ Display spin</p>
+<p>	+ Main layout</p>
+<p>	+ Width of site</p>
+<p>	+ Seo keywords, Description</p>
+<p>	<strong>- Typography settings</strong></p>
+<p>	+ Main color</p>
+<p>	+ Body font</p>
+<p>	+ Title font</p>
+<p>	+ Comic_font</p>
+<p>	+ Button hover color</p>
+<p>	<strong>- Logo settings</strong></p>
+<p>	+ upload logo</p>
+<p>	<strong>- Menu settings</strong></p>
+<p>	+ Social footer</p>
+<p>	+&nbsp;<span style="color: rgb(85, 85, 85); font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; widows: 1; background-color: rgb(238, 238, 238);">Menu Background Color</span></p>
+<p>	<span style="color: rgb(85, 85, 85); font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; widows: 1; background-color: rgb(238, 238, 238);">+&nbsp;</span><span style="color: rgb(85, 85, 85); font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; widows: 1; background-color: rgb(238, 238, 238);">Opacity of Background Color</span></p>
+<p>	<span style="color: rgb(85, 85, 85); font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; widows: 1; background-color: rgb(238, 238, 238);">+&nbsp;</span><span style="color: rgb(85, 85, 85); font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; widows: 1; background-color: rgb(238, 238, 238);">Menu Background Color when page scroll</span></p>
+<p>	<span style="color: rgb(85, 85, 85); font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; widows: 1; background-color: rgb(238, 238, 238);">+&nbsp;</span><span style="color: rgb(85, 85, 85); font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; widows: 1; background-color: rgb(238, 238, 238);">Opacity of Menu Background Color when page scroll</span></p>
+<p>	<span style="color: rgb(85, 85, 85); font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; widows: 1; background-color: rgb(238, 238, 238);">+&nbsp;</span><span style="color: rgb(85, 85, 85); font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; widows: 1; background-color: rgb(238, 238, 238);">Menu Link Color</span></p>
+<p>	<span style="color: rgb(85, 85, 85); font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; widows: 1; background-color: rgb(238, 238, 238);">+&nbsp;</span><span style="color: rgb(85, 85, 85); font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; widows: 1; background-color: rgb(238, 238, 238);">Menu Link Color when hover</span></p>
+<p>	<span style="color: rgb(85, 85, 85); font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; widows: 1; background-color: rgb(238, 238, 238);">+ Menu Link Color when active</span></p>
+<p>	+&nbsp;<span style="color: rgb(85, 85, 85); font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; widows: 1; background-color: rgb(238, 238, 238);">Menu Link Color when page scroll</span></p>
+<p>	<span style="color: rgb(85, 85, 85); font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; line-height: 24px; widows: 1; background-color: rgb(238, 238, 238);">+ <strong>Show header background for search</strong></span></p>
+<p>	&nbsp;</p>
+<p>	&nbsp;</p>
+<p>	&nbsp;</p>
+</section>
+<section id="home_page">
+	<div class="page-header"><h3>Home page</h3><hr class="notop"></div>
+<p>	Go to <strong>Pages</strong> &gt;&gt; <strong>All pages</strong> from left sidebar &gt;&gt; Choose <strong>Home bakery, Home cafe, Home pub, Home restaurant</strong> to edit . You need to know visual composer to use element.</p>
+</section>
+<section id="restaurant_menu_menu_page">
+	<div class="page-header"><h3>Restaurant Menu (Menu page)</h3><hr class="notop"></div>
+<p>	<b>Restaurant Menu</b></p>
+<p>	-&nbsp;<strong>Create category</strong></p>
+<p>	Go to Restaurant Menu &gt;&gt; Categories &gt;&gt; Add new category</p>
+<p>	-&nbsp;<strong>Create restaurant menu</strong></p>
+<p>	Go to&nbsp;Restaurant Menu &gt;&gt; Add new Restaurant menu .<br>
+	<br>
+	<img alt="" src="assets/images/image_23.png" style="width: 1000px; height: 1159px;"></p>
+<p>	&nbsp;</p>
+<p>	<strong>- Display frontend</strong></p>
+<p>	Go to Pages &gt;&gt; All pages &gt;&gt; Choose pages: <em>Menu, Menu cafe, Menu pub, Menu restaurant</em> to edit.</p>
+<p>	Note you need choose again &quot;Category&quot; in Menu Category element visual composer</p>
+<p>	<a href="assets/images/image_25.png"><img alt="" src="assets/images/image_25.png" style="width: 1000px; height: 482px;"></a></p>
+<p>	&nbsp;</p>
+</section>
+<section id="slideshow">
+	<div class="page-header"><h3>Slideshow</h3><hr class="notop"></div>
+<p>	Click <strong>Slider Revolution</strong> from left sidebar &gt;&gt; Choose a slide to edit.</p>
+<p>	You can read more here to know how to use revolution slider:&nbsp;<a href="https://revolution.themepunch.com/">https://revolution.themepunch.com/</a></p>
+<p>	&nbsp;</p>
+<p>	<a href="assets/images/image_27.png"><img alt="" src="assets/images/image_27.png" style="width: 1000px; height: 545px;"></a></p>
+</section>
+<section id="footer">
+	<div class="page-header"><h3>Footer</h3><hr class="notop"></div>
+<p>	Go to Appearance &gt;&gt; Widgetts &gt;&gt; And edit widget</p>
+<p>	<a href="assets/images/image_28.png"><img alt="" src="assets/images/image_28.png" style="width: 1000px; height: 800px;"></a></p>
+</section>
+<section id="visual_composer">
+	<div class="page-header"><h3>Visual Composer</h3><hr class="notop"></div>
+<p>	<strong>OverView</strong></p>
+<p>	<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/AD2nshcKrBE" width="560"></iframe></p>
+<p>	You can read detail here:&nbsp;http://vc.wpbakery.com/</p>
+<p>	Note: If you want to auto update Visual Composer, you have to purchase &quot;Regular License&quot; at codecanyon (<a href="http://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431">http://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431</a>) then update info in settings of Visual Composer:</p>
+<p>	<a href="assets/images/image_3.png" target="_blank"><img alt="" src="assets/images/image_3.png" style="width: 800px; height: 406px;"></a></p>
+<p>	&nbsp;</p>
+<p>	&nbsp;</p>
+</section>
+<section id="plugins">
+	<div class="page-header"><h3>Plugins</h3><hr class="notop"></div>
+<p>	<strong>1: Booking Form</strong></p>
+<p>	From Left Bar &gt;&gt; Contact &gt;&gt; Contact From &gt;&gt; Form tab and insert this code</p>
+<p>	<a href="assets/images/image_17.png"><img alt="" src="assets/images/image_17.png" style="width: 1000px; height: 439px;"></a></p>
+<div>
+	<pre class="prettyprint lang-html linenums">
+</pre>
+	<div>
+		&lt;div class=&quot;col-md-6&quot;&gt;</div>
+	<div>
+		&nbsp; &nbsp; [text* your-name class:register-input class:white-input placeholder &quot;Full name&quot;]</div>
+	<div>
+		&nbsp; &nbsp; [text your-subject class:register-input class:white-input placeholder &quot;Phone Number&quot;]</div>
+	<div>
+		&nbsp; &nbsp; [date* date class:register-input class:white-input placeholder &quot;Date&quot;]</div>
+	<div>
+		&lt;/div&gt;</div>
+	<div>
+		&lt;div class=&quot;col-md-6&quot;&gt;</div>
+	<div>
+		[email* your-email class:register-input class:white-input placeholder &quot;Your email&quot;]</div>
+	<div>
+		[select* how-many class:register-input class:white-input include_blank &quot;1 Person&quot; &quot;2 People&quot; &quot;3 People&quot; &quot;4 People&quot; &quot;5 People&quot; &quot;6 People&quot; &quot;7 People&quot; &quot;8 People&quot; &quot;9 People&quot; &quot;10 People&quot;]</div>
+	<div>
+		[text* booking-time class:register-input class:white-input placeholder &quot;Booking Time&quot;]</div>
+	<div>
+		&lt;/div&gt;</div>
+	<div>
+		&lt;div class=&quot;col-md-12&quot;&gt;</div>
+	<div>
+		[submit id:submit-button class:register-submit &quot;Book Your Table&quot;]</div>
+	<div>
+		&lt;/div&gt;</div>
+</div>
+<p>	&nbsp;</p>
+<p>	&nbsp;</p>
+<p>	<strong>2: Contact form 7</strong></p>
+<p>	From Left Bar &gt;&gt; Contact &gt;&gt; Contact From &gt;&gt; Form tab and insert this code</p>
+<p>	<a href="assets/images/image_18.png"><img alt="" src="assets/images/image_18.png"  ></a></p>
+<pre class="prettyprint lang-html linenums">
+</pre>
+<div>
+	&lt;div class=&quot;col-md-6 wow slideInLeft&quot; data-wow-delay=&quot;0.5s&quot;&gt;</div>
+<div>
+	[text* your-name class:contact-input class:white-input placeholder &quot;Full Name*&quot;]</div>
+<div>
+	[email* your-email class:contact-input class:white-input placeholder &quot;Email Adress*&quot;]</div>
+<div>
+	[text* your-subject class:contact-input class:white-input placeholder &quot;Phone Number*&quot;]</div>
+<div>
+	&lt;/div&gt;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&lt;div class=&quot;col-md-6 wow slideInRight&quot; data-wow-delay=&quot;0.5s&quot;&gt;</div>
+<div>
+	[textarea* your-message class:white-input class:contact-commnent placeholder &quot;Your Message...&quot;]</div>
+<div>
+	&lt;/div&gt;</div>
+<div>
+	&nbsp;</div>
+<div>
+	[submit class:contact-submit class:wow class:fadeInUp &quot;Send message&quot;]</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+</section>
+<section id="translations">
+	<div class="page-header"><h3>Translations</h3><hr class="notop"></div>
+<p class="p1">
+	<span class="s1">The theme&nbsp;is compatible with&nbsp;<a href="http://wpml.org/"><span class="s2">WPML plugin</span></a>, thus can be translated into multiple languages.&nbsp;<a href="http://wpml.org/documentation/getting-started-guide"><span class="s2">Follow this link</span></a>&nbsp;for guide. You can also use&nbsp;<a href="http://poedit.net/"><span class="s2">POEdit plugin</span></a>&nbsp;for translation.</span></p>
+<ul class="ul1">
+	<li class="li1">
+		<span class="s1">Located the .po file in folder /languages.</span></li>
+	<li class="li1">
+		<span class="s1">Open the file with POEdit and translate the texts into your preferred language.</span></li>
+	<li class="li1">
+		<span class="s1">When complete, you&rsquo;ll want to save the file twice, as two separate files &ndash; a .po file and a .mo file. When you save the files, you must name them according to your language code. Find a list of language codes at&nbsp;<a href="http://codex.wordpress.org/WordPress_in_Your_Language"><span class="s2">WordPress in your Language</span></a>. As an example, the language code for English is en_EN, so you would save the translated files as en_EN.po first, then en_EN.mo.</span></li>
+	<li class="li1">
+		<span class="s1">When that&rsquo;s done, simply upload the files to your theme folder.</span></li>
+</ul>
+<p class="p1">
+	<span class="s2"><a href="https://wordpress.org/plugins/codestyling-localization/">Codestyling Localization</a></span><span class="s1">&nbsp;is a good alternative for POEdit. It also works with .po/.mo files and is very easy to use.</span></p>
+</section>
+
+	</div>
+</body>
+</html>
